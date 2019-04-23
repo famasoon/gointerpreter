@@ -22,7 +22,7 @@ const (
 	SLASH    = "/"
 
 	LT = "<"
-	RT = ">"
+	GT = ">"
 
 	COMMA     = ","
 	SEMICOLON = ";"
