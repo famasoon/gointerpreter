@@ -122,7 +122,7 @@ func (ao *Array) Inspect() string {
 	return out.String()
 }
 
-type HashTable interface {
+type Hashable interface {
 	HashKey() HashKey
 }
 type HashKey struct {
@@ -145,6 +145,7 @@ func (b *Boolean) HashKey() HashKey {
 func (i *Integer) HashKey() HashKey {
 	return HashKey{Type: i.Type(), Value: uint64(i.Value)}
 }
+
 func (s *String) HashKey() HashKey {
 	h := fnv.New64a()
 	h.Write([]byte(s.Value))
