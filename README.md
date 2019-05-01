@@ -4,8 +4,6 @@ gointerpreter
 ## Overview
 I learned how to implement program language in the following book.
 And I implemented an interpreter for `monkey` language by Golang.
-私は下記の本で学習しGo言語でmonkeyという言語のインタプリタを実装しました.
-
 * English [Writing An Interpreter In Go](https://interpreterbook.com/)
 * Japanese [Go言語でつくるインタプリタ](https://www.oreilly.co.jp/books/9784873118222/)
 
